@@ -1,0 +1,92 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+// Variables
+@import "variables";
+// Bootstrap
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');*/
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2{color: white;
+}
+
+.jumbotron {
+  background: url("/images/shoesstore.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: orangered;
+  }
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: orangered;
+  }
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke
+  }
+}
+
+.btn-warning{
+  font-size: 22pt;
+  width: 200px;
+  height: 200px;
+
+}
+
+.btn-success{
+  font-size: 22pt;
+  width: 200px;
+  height: 200px;
+}
+
+.highlight{
+  background-color: #3097D1;
+}
+
+
+
+html,body {
+  background: url("/images/images1.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.menu {
+  width: 400px;
+  height: 255px;
+  border: 6px solid #ccc;
+  margin: 30px auto 0;
+  overflow: hidden;
+}
+.menu ul {
+  width: 400px;
+  height: 255px;
+}
+.menu ul li img {
+  display: block;
+  width: 400px;
+  height: 255px;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+ul.list{
+  list-style-type: none;
+}
+
+#shoePrice{
+  color:red;
+  font-size:x-large;
+}
+

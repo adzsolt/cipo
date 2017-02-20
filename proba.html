@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+    .my-img a {
+        display: inline-block;
+        margin: 10px;
+        border: 2px solid #CCC;
+    }
+    .my-img a:hover {
+        border: 2px solid #45AFFF;
+    }
+    .modal-lg {
+        width: 86%;
+    }
+    .modal-body {
+        overflow: auto;
+        max-height:auto;
+    }
+</style>
+</head>
+<body>
+<script>
+    $(document).ready(function() {
+        $('img').on('click', function() {
+            $("#showImg").empty();
+            var image = $(this).attr("src");
+            $("#showImg").append("<img class='img-responsive' src='" + image + "' />")
+        })
+    });
+</script>
+<div class="container">
+    <h2>Modal Example</h2>
+    <!-- Trigger the modal with a button -->
+    <div class="row">
+        <div class="col-xs-12 my-img">
+            <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                <img src="http://cdn2.nolocreo.com/wp-content/uploads/2015/01/cd74c6ef2247351c34703d55318e7bbe.jpg" id="img1" class="img-responsive" width="250px">
+            </a>
+            <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                <img src="http://www.fondosanimados.com/wallpapers/animales/grandes_felinos/pumas/depredador_sin_igual/800x600_depredador_sin_igual.jpg" id="img2" class="img-responsive" width="250px">
+            </a>
+            <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                <img src="http://www.muycurioso.net/sites/default/files/images/naturaleza/Mayo_2014/Animales%20blancos%20mas%20bonitos%20del%20mundo/02.jpg" id="img3" class="img-responsive" width="250px">
+            </a>
+            <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                <img src="http://2.bp.blogspot.com/_kmCH50e9OWk/SsDSq_PIzzI/AAAAAAAAABI/r1WwWHFup5k/s1600/Loros.jpg" id="img4" class="img-responsive" width="250px">
+            </a>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h4 class="modal-title">your image title here (can be dynamic) </h4>
+                    </div>
+                    <div class="modal-body" id="showImg">
+                        <!-- here we create the image dynamically -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
