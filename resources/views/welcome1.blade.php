@@ -8,7 +8,7 @@
 <body>
 <h1 align="center" style="font-size: 40pt">Cipőáruház</h1>
 <h2 align="center">Használt és új cipő adás-vétel  </h2>
-<div style="padding-top: 100px">
+<div id="app" style="padding-top: 100px">
         <div class="col-sm-6" align="center" >
             <form action="/" method="post">
                 <button type="submit" class="btn btn-warning">Eladás</button>
@@ -19,6 +19,8 @@
                 <button type="submit" class="btn btn-success ">Vásárlás</button>
             </form>
         </div>
+    <example message="Alma a fa alatt"></example>
 </div>
+<script src="/js/app.js"></script>
 </body>
 </html>

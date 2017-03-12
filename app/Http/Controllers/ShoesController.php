@@ -25,7 +25,7 @@ class ShoesController extends Controller
     public function index()
     {
         $shoes = Shoe::all();
-        return view('shoes.index', compact('shoes'));
+        return view('shoes.index1', compact('shoes'));
     }
 
     /**
@@ -76,7 +76,7 @@ class ShoesController extends Controller
 
         if ($request->meret <> 'All') {
             $shoes = Shoe::size($request->meret)->get();
-            /*return view('shoes.index', compact('shoes'));*/
+            /*return view('shoes.index1', compact('shoes'));*/
             return($shoes);
         } else {
             /*return redirect('/shoes');*/

@@ -5768,6 +5768,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/*@import "node_modules/bulma/bulma";*/
 body {
   font-family: 'Ubuntu', sans-serif; }
 
@@ -5802,7 +5803,7 @@ h1, h2 {
   background-color: #3097D1; }
 
 html, body {
-  background: url("/images/images1.jpg");
+  background: #fafafa;
   background-size: cover; }
 
 .menu {

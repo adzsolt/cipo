@@ -17,7 +17,6 @@
 
 
                                 <div class="list-group" align="center">
-                                    {{--<a --}}{{--href="/{{$shoe->id}}"--}}{{-- class="list-group-item">--}}
                                     <h4 class="list-group-item-heading">Cipo id:{{$shoe->id}}</h4>
                                     <a href="#" id="link1" data-toggle="modal" data-target="#myModal"
                                        data-backdrop="true">
@@ -76,9 +75,9 @@
                                             <li style="display: none"><img src="/images/image1_18.jpg"/></li>
                                         </ul>
                                     </div>
-                                    {{--<div class="modal-body" id="showImg">
+                                    <div class="modal-body" id="showImg">
                                         <!-- here we create the image dynamically -->
-                                    </div>--}}
+                                    </div>
                                     <div class="modal-footer">
                                         <div class="row">
                                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
