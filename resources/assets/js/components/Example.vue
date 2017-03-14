@@ -80,7 +80,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Bezár
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Bezárom
 
                                     </button>
                                 </div>
