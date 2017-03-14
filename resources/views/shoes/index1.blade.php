@@ -39,7 +39,6 @@
         </div>
     </div>
     <script src="/js/app.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 @endsection
 

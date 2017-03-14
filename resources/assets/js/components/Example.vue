@@ -100,7 +100,6 @@
 
 
 <script>
-import './script.js'
     export default {
 
        props:['shoes'],
