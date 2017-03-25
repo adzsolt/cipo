@@ -5,14 +5,18 @@
 @import "variables";
 // Bootstrap
 /*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');*/
-
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 /*@import "node_modules/bulma/bulma";*/
-body{
+body {
   font-family: 'Ubuntu', sans-serif;
 }
-
-h1,h2{color: white;
+.navbar{
+  margin-bottom: 0px;
+}
+h1, h2 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .jumbotron {
@@ -33,27 +37,25 @@ h1,h2{color: white;
   }
 }
 
-.btn-warning{
+.btn-warning {
   font-size: 22pt;
   width: 200px;
   height: 200px;
 
 }
 
-.btn-success{
+.btn-success {
   font-size: 22pt;
   width: 200px;
   height: 200px;
 }
 
-.highlight{
+.highlight {
   background-color: #3097D1;
 }
 
-
-
-html,body {
-  background:#fafafa;
+html, body {
+  background: #fafafa;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -67,10 +69,12 @@ html,body {
   margin: 30px auto 0;
   overflow: hidden;
 }
+
 .menu ul {
   width: 400px;
   height: 255px;
 }
+
 .menu ul li img {
   display: block;
   width: 400px;
@@ -78,15 +82,15 @@ html,body {
 }
 
 .panel:hover {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
 }
 
-ul.list{
+ul.list {
   list-style-type: none;
 }
 
-#shoePrice{
-  color:red;
-  font-size:x-large;
+#shoePrice {
+  color: red;
+  font-size: x-large;
 }
 

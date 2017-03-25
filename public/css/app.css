@@ -5772,8 +5772,13 @@ button.close {
 body {
   font-family: 'Ubuntu', sans-serif; }
 
+.navbar {
+  margin-bottom: 0px; }
+
 h1, h2 {
-  color: white; }
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 30px; }
 
 .jumbotron {
   background: url("/images/shoesstore.jpg") no-repeat center center;

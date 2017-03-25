@@ -119,7 +119,7 @@
 
        mounted() {
 
-            console.log('Component ready.');
+            console.log('Component ready1.');
         },
          created:function(){
         this.getShoes();

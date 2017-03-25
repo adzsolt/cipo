@@ -19,7 +19,7 @@ Route::get('api/tasks', function () {
     $shoes = Shoe::all();
     return view('vue1', compact('shoes'));
 });*/
-Route::get('/alma', function () {
+Route::get('/', function () {
     /*$shoes = Shoe::all();*/
     /*$shoes=json_encode($shoes);*/
     return view('shoes.index1');

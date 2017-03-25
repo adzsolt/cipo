@@ -31,7 +31,6 @@
                         40
                     </label>
                 </div>
-               {{-- <my-filter></my-filter>--}}
                 <example :shoes="size"></example>
 
 

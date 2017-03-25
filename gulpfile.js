@@ -18,6 +18,6 @@ elixir(function (mix) {
         .version('css/app.css')
         .webpack('app.js')
         .browserSync({
-            proxy: 'localhost:8000/alma'
+            proxy: 'localhost:8000'
         });
 });

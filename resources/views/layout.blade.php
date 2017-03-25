@@ -14,12 +14,26 @@
 
 </head>
 <body>
-
+<nav class="navbar navbar-inverse">
+	<a class="navbar-brand" href="/">Cipőárúház</a>
+	<ul class="nav navbar-nav">
+		<li class="active">
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/adding">Hozzáadás(add)</a>
+		</li>
+		<li>
+			<a href="/adding">Szerkesztes(edit)</a>
+		</li>
+		<li>
+			<a href="/adding">Törles(delete)</a>
+		</li>
+	</ul>
+</nav>
 <div style="background-image:url(/images/images1.jpg);background-size: cover">
 <h1 align="center" style="font-size: 40pt">Cipőáruház</h1>
-
 <h2 align="center">Használt és új cipő adás-vétel </h2>
-<a class="btn btn-default" href="/adding">Hozzáad</a>
 </div>
 <hr>
 
