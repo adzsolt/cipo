@@ -115,12 +115,16 @@
         }
         },
 
+
+
        mounted() {
+
             console.log('Component ready.');
         },
          created:function(){
         this.getShoes();
     },
+
 
    methods:{
         getShoes:function(){
@@ -128,9 +132,8 @@
                   this.items=response.body
                   )
         }
+
     }
 
 }
-
-
 </script>
