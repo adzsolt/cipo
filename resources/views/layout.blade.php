@@ -22,7 +22,7 @@
 </div>
 <hr>
 </div>
-<script src="/js/app.js"></script>
+{{--<script src="/js/app.js"></script>--}}
 @yield('data')
 @yield('content')
 

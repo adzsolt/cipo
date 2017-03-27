@@ -42,10 +42,10 @@
                             <p class="list-group-item-text small">Szin: {{item.color}}</p>
 
                             <p class="list-group-item-text small">Tipus: {{item.type}}</p>
-
+                            <p class="list-group-item-text small">Ar: {{item.price}}</p>
 
                         </div>
-                        <div class="modal-body">
+                        <!--<div class="modal-body">
                             <ul class="list" list-style-type="none">
                                 <li style="display: none"><img src="/images/image1_1.jpg"/></li>
                                 <li style="display: none"><img src="/images/image1_2.jpg"/></li>
@@ -66,10 +66,12 @@
                                 <li style="display: none"><img src="/images/image1_17.jpg"/></li>
                                 <li style="display: none"><img src="/images/image1_18.jpg"/></li>
                             </ul>
-                        </div>
+                        </div>-->
 
-                        <div class="modal-body" id="showImg">
+                        <div class="modal-body">
                             <!-- here we create the image dynamically -->
+                            <img :id="item.id" :src="item.filename" :alt="item.id" height="200"
+                                 width="200" class="img-responsive">
                         </div>
 
                         <div class="modal-footer">
@@ -81,7 +83,6 @@
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Bezárom
-
                                     </button>
                                 </div>
 
