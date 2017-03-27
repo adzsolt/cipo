@@ -15,12 +15,20 @@ require('./bootstrap');
 
 
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('navb', require('./components/navb.vue'));
 //Vue.component('my-filter', require('./components/Filter.vue'));
 
 var app = new Vue({
     el: '#app',
     data: {
         size: "All"
+    }
+
+})
+var head = new Vue({
+    el: '#head',
+    data: {
+        alma: "All"
     }
 
 })
